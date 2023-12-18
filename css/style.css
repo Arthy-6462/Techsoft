@@ -60,6 +60,10 @@ header{
 .navbar-nav .nav-item{
     padding:0 10px;
 }
+.navbar-toggler{
+    background-color: white;
+    color:black;
+}
 /* slider */
 .carousel-caption{
     position: absolute;
@@ -92,6 +96,10 @@ header{
 #about,#services,#blog,#contact{
     margin:150px 0;
 }
+#about{
+    padding-top:135px;
+}
+
 #slider{
     padding-top:135px; 
     
@@ -99,6 +107,7 @@ header{
 /* counter */
 #counter{
     background-color: rgb(6, 6, 20);
+    padding-top:135px;
 }
 .counter-box{
     text-align: center;
@@ -128,6 +137,7 @@ header{
     padding:40px;
     min-height: 400px;
     width:100%;
+    padding-top:135px;
 }
 .why-us .box h4,.why-us .box p{
     color:white;
@@ -186,6 +196,8 @@ header{
     display: block;
     margin:18px auto 20px auto;
 }
+#services{
+    padding-top:135px;}
 .services-div{
     background-color: white;
     min-height: 300px;
@@ -262,6 +274,9 @@ margin-bottom: 30px;
     color:#d25944;
 }
 /* ====================blog================ */
+#blog{
+    padding-top:135px;
+}
 #blog a{
     text-decoration: none;
 }
@@ -270,6 +285,7 @@ margin-bottom: 30px;
     background: url("/assests/images/contact-bg.png") left center no-repeat;
     margin:100px 0px;
     position: relative;
+    padding-top:135px;
 }
 .contact::before{
     content:" ";
