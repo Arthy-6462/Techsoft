@@ -1,0 +1,414 @@
+/*==============================================
+Template name:Techsoft-software web application
+Template URI:http://techsoft.com
+description:this is Html5,CSS 3,bootstrap 4.6 based template
+Author:techsoft
+Author URI:http://techsoft.com
+Version:1.0
+================================================/*
+/*==============================================
+CSS table of index
+1)Global styles
+2)Top bar
+3)Nav bar
+4)Header 
+5)slider
+6)About us
+7)counter
+8)why choose us
+9)services
+10)call to action
+11)blog
+12)contact us
+13)Footer
+================================================/*
+/* top-bar */
+.top-bar{
+    background-color: rgb(236, 76, 18);
+min-height: 50px;
+line-height: 50px;
+}
+.top-bar a{
+    color: white;
+    margin-left:40px;
+}
+.icon-bar{
+    text-align: right;
+
+}
+.icon-bar a{
+    margin:0 10px;
+}
+.welcome-text{
+    color:white;
+     margin-left: 30px; 
+}
+/* nav bar */
+header{
+    position:fixed;
+    width:100%;
+    z-index:9999;
+
+}
+
+.bg-body-tertiary{
+    background-color: black;
+}
+.nav-link{
+    color:white;
+}
+.navbar-nav .nav-item{
+    padding:0 10px;
+}
+/* slider */
+.carousel-caption{
+    position: absolute;
+    top:200px;
+
+}
+.carousel-caption h5{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.carousel-caption p{
+    margin-bottom: 15px;
+}
+.btn-default{
+    display: inline-block;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(240, 69, 7);
+    border-radius: 200px;
+    padding:15px 33px;
+}
+/* ==========about us============= */
+.fancy-heading{
+    font-size: 30px;
+    color: rgb(33, 35, 43);
+}
+#about,#services,#blog,#contact{
+    margin:150px 0;
+}
+#slider{
+    padding-top:135px; 
+    
+}
+/* counter */
+#counter{
+    background-color: rgb(6, 6, 20);
+}
+.counter-box{
+    text-align: center;
+    padding:50px;
+    border-right:1px white dashed;
+}
+.counter-box:last-child{
+    border-right: 0px white dashed;
+}
+.icon-box i{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icon-box h1,.icon-box h3{
+    color:white;
+    font-size:20px;
+}
+/* why choose us */
+.section-title h2,.section-title p{
+    color:white;
+
+}
+#why-us{
+    background-color: rgb(4, 4, 43);
+    margin:50px 0;
+    padding:40px;
+    min-height: 400px;
+    width:100%;
+}
+.why-us .box h4,.why-us .box p{
+    color:white;
+    
+}
+.why-us .box p{
+    color:white;
+    font-size:15px;
+    margin:0;
+    padding:0;
+}
+
+.why-us .box h4{
+    font-size:24px;
+    margin:20px 0;
+    padding:0;
+
+}
+.why-us .box{
+    padding:50px 30px;
+    transition: all ease-in 0.3s;
+}
+.why-us .box span{
+    font-size:70px;
+    font-weight: 700px;
+    color:rgb(204, 223, 78);
+    display: block;
+    opacity:0.3;
+}
+.why-us .box:hover{
+    background-color:rgb(188, 133, 82);
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.1);
+    padding:30px 30px 70 30px;
+}
+.why-us .box:hover span,.why-us .box:hover h4,.why-us .box:hover p{
+    color:white; 
+
+}
+/* ==================services====================== */
+.heading-block{
+    display: block;
+    margin-bottom: 40px;
+}
+.header-text{
+    font-size:32px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header-text::after{
+    background-color: black;
+    content:" ";
+    height:5px;
+    width:30px;
+    display: block;
+    margin:18px auto 20px auto;
+}
+.services-div{
+    background-color: white;
+    min-height: 300px;
+    padding :30px;
+    position:relative;
+    overflow: hidden;
+    margin-bottom:40px;
+    box-shadow: 0 0 29px 5px rgba(69, 67, 67, 0.19);
+    border-radius: 10px;
+    transition: all ease-in 0.3s;
+}
+.services-image{
+    min-width:100px;
+    height:auto;
+}
+.service-text-1{
+    font: size 18px;
+    color:#2691c7;
+}
+.service-text-2{
+    font: size 18px;
+    color:#3fae4d;
+
+}
+.service-text-3{
+    font: size 18px;
+    color:#d25944;
+
+}
+.services-div p {
+font-size: 15px;
+margin-bottom: 30px;
+}
+.btn-orange{
+    background-color:#ff2400;
+    border:none;
+    outline:none;
+    padding:8px 16px;
+    font-size:15px;
+    color:white;
+
+}
+/* call to action */
+#cta{
+    margin-bottom: 30px;
+}
+.cta{
+    background-color: black;
+    padding:70px 0;
+}
+.cta h3{
+    color:white;
+    font-size: 700;
+}
+.cta p{
+    color:white;
+
+}
+.cta .cta-btn{
+    background-color: #ff2400;
+    text-transform:uppercase;
+    font-size: 14px;
+    letter-spacing:1px;
+    font-weight: 700;
+    display: inline-block;
+    padding:12px 30px;
+    color:#fff;
+    border-radius: 50px;
+    margin:20px;
+    transition: 0.5s;
+}
+.cta .cta-btn:hover{
+    background-color: white;
+    color:#d25944;
+}
+/* ====================blog================ */
+#blog a{
+    text-decoration: none;
+}
+/* ==================contact us====================== */
+#contact{
+    background: url("/assests/images/contact-bg.png") left center no-repeat;
+    margin:100px 0px;
+    position: relative;
+}
+.contact::before{
+    content:" ";
+    background-color: rgba(255,255,255, 0.7);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;   
+}
+.contact .container{
+    position:relative;
+}
+.contact .info{
+    width:100%;
+
+}
+.contact .info i{
+    font-size:20px;
+    background-color:#ff2400 ;
+    color:white;
+    float:left;
+    width:44px;
+    height:44px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info h4{
+    padding:0px 0px 0px 60px;
+    font-size:20px;
+    font-weight: 600px;
+    margin:5px;   
+}
+.contact .info p{
+    font-size:14px;
+    margin-bottom: 0px;
+    padding:0px 0px 0px 60px;
+}
+.contact .info .email,.contact .info .phone{
+    margin-top:40px;
+}
+.contact .contact-form{
+    width:100%;
+    background-color: white;
+    
+}
+.contact .contact-form .form-group{
+    padding-bottom: 8px;
+
+}
+.contact .contact-form input, .contact .contact-form textarea{
+    border-radius: 4px;
+    box-shadow: none;
+    font-size:14px;
+}
+.contact .contact-form button[type="submit"]{
+    border:2px solid red;
+    color:red;
+    border-radius: 50px;
+    background-color: #fff;
+    padding:10px 32px;
+    transition: all 0.4s ease-in-out;
+
+}
+.contact .contact-form button[type="submit"]:hover{
+    background-color: red;
+    color:white;
+}
+/* =============footer============= */
+#footer{
+    padding:0 0 30px 0;
+    background-color:#000d1a ;
+    font-size: 14px;
+    color:white;
+}
+#footer .footer-newsletter{
+    padding:50px 0;
+    background-color: #011120;
+}
+#footer .footer-newsletter h4{
+    font-size:24px;
+    margin-bottom:20px;
+    padding:0;
+    line-height: 1;
+    font-weight: 600px;
+}
+#footer .footer-newsletter form{
+    margin-top:30px;
+    background-color: white;
+    padding:6px 10px;
+    border-radius: 50px;
+    position:relative;
+
+}
+#footer .footer-newsletter form input[type="email"]{
+    border:0;
+    padding:4px;
+    width: calc(100% - 100px);
+  
+
+}
+#footer .footer-newsletter form input[type="submit"]{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    border:none;
+    background-color: #ff2400;
+    padding:0 20px;
+    border-radius: 50px;
+    color:#fff;
+    margin:3px;
+    font-size:16px;
+    transition: 0.3s;
+}
+#footer .footer-top{
+    background-color: #000d1a;
+    padding:60px 0;
+
+}
+#footer .footer-top .footer-info{
+    margin-bottom:30px;
+}
+#footer .footer-top .footer-info h3{
+    font-size:18px;
+    margin-bottom:20px;
+    padding:2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-info p{
+    font-size:14px;
+    line-height: 24px;
+}
+#footer .footer-top .social-links a{
+
+}
+
+
+
